@@ -1,0 +1,33 @@
+git status : for cheak status
+
+git init : for create git dir
+
+git add --a : for all file add to git 
+
+git commit -m "messeage" : for commit(change) dir
+
+git log : for see all commits
+rm -rf .git : for delete git dir
+git clone +url+ dir name(optional)
+git diff : for compare staging area and working dir
+git diff --staged : for compare last commit and staging area
+git commit -a -m "Direct commit" : For skip untrcked files
+git rm filename : for delete file
+git mv filename newname : for rename file
+git rm --cached filename : for untrcke file
+git  log -p -int(limit)(optional): for view commit with change
+git log --stat : for view commit changes in short
+git log --pretty=oneline : for changes viwe in one line
+git log --pretty=short : for changes viwe in short
+git log --since=2.days : for view changes of last 2 days
+git log --since=2.weeks : for view changes of last 2 weeks
+git log --since=2.months : for view changes of last 2 months
+git log --since=2.years : for view changes of last 2 years
+git cheakout --filename : for restored file by last commit
+git cheakout --f: for restored dir by last commit
+git remote add origin https://github.com/Shareef-Shahzada/Shareef-Shahzada.git  : for add remote
+git remote -v : for viwe remotes
+touch filename : for create new file
+
+ssh-keygen -t rsa -b 4096 -C "abdulbasitansari288@gmail.com"
+eval $(ssh-agent -s)
